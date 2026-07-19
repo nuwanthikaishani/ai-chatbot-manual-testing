@@ -1,41 +1,97 @@
-from pathlib import Path
 
-readme = """# AI Chatbot Manual Testing
 
-A manual quality assurance project for testing a basic AI customer support chatbot.
+# AI Chatbot Manual Testing Project
 
-This repository demonstrates how to analyse chatbot requirements, prepare test scenarios, design manual test cases, execute tests, report defects, and create a final test summary.
+![Testing](https://img.shields.io/badge/Testing-Manual-blue)
+![Project](https://img.shields.io/badge/Project-AI%20Chatbot-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 
-## Project Overview
+## Overview
 
-The chatbot supports common customer service requests such as:
+This repository contains a complete manual testing project for a basic AI customer support chatbot.
 
-- Greeting users
-- Providing business opening hours
-- Providing password reset guidance
-- Providing customer support contact details
-- Handling unsupported or unclear questions
-- Handling spelling mistakes and unusual inputs
-- Maintaining context during short conversations
-- Protecting private and confidential information
+The purpose of this project is to demonstrate how a QA Engineer can:
 
-The first phase of this project focuses only on manual testing.
+- Review chatbot requirements
+- Prepare a test plan
+- Create test scenarios
+- Write detailed manual test cases
+- Execute test cases
+- Report defects
+- Perform retesting and regression testing
+- Prepare a test summary report
 
-## Project Objectives
+## Chatbot Features
 
-The objectives of this project are to verify that the chatbot:
+The chatbot is expected to support the following functions:
 
-- Understands common user questions
-- Identifies the correct user intent
-- Provides accurate and relevant responses
-- Handles different versions of the same question
-- Handles invalid and unexpected input safely
-- Protects confidential user information
-- Maintains context during a conversation
-- Responds within the expected response time
-- Does not crash during normal or negative testing
+- Respond to greetings
+- Provide business opening hours
+- Provide password reset guidance
+- Provide customer support contact details
+- Handle unsupported questions
+- Handle spelling mistakes
+- Handle empty and invalid inputs
+- Maintain context during short conversations
+- Protect private and confidential information
+- Respond within the expected response time
 
-## Repository Name
+## Project Scope
+
+### In Scope
+
+- Functional testing
+- Intent testing
+- Conversation flow testing
+- Negative testing
+- Edge-case testing
+- Privacy and security testing
+- Usability testing
+- Basic performance testing
+- Browser compatibility testing
+- Defect reporting
+- Retesting
+- Regression testing
+
+### Out of Scope
+
+- Test automation
+- Voice chatbot testing
+- Multilingual testing
+- Payment testing
+- Large-scale load testing
+- Live customer account changes
+- Third-party integration testing
+
+## Repository Structure
 
 ```text
-ai-chatbot-manual-testing
+ai-chatbot-manual-testing/
+│
+├── README.md
+│
+├── requirements/
+│   └── chatbot-requirements.md
+│
+├── test-plan/
+│   └── chatbot-test-plan.md
+│
+├── test-scenarios/
+│   └── chatbot-test-scenarios.xlsx
+│
+├── test-cases/
+│   └── chatbot-manual-test-cases.xlsx
+│
+├── test-data/
+│   └── chatbot-test-data.xlsx
+│
+├── test-execution/
+│   └── chatbot-test-execution-results.xlsx
+│
+├── defect-reports/
+│   └── chatbot-defect-reports.xlsx
+│
+├── screenshots/
+│
+└── test-summary/
+    └── chatbot-test-summary-report.md
